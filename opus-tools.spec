@@ -1,12 +1,12 @@
 Summary:	Command-line utilities to encode, inspect, and decode .opus files
 Summary(pl.UTF-8):	Narzędzia linii poleceń do kodowania, badania i dekodowania plików .opus
 Name:		opus-tools
-Version:	0.1.5
+Version:	0.1.6
 Release:	1
 License:	BSD
 Group:		Applications/Sound
 Source0:	http://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
-# Source0-md5:	244de849382267726bf6d1c0d1ef5e9f
+# Source0-md5:	a7ca1dab0f15cff55a18a00e6e548451
 URL:		http://opus-codec.org/
 BuildRequires:	libogg-devel >= 2:1.3
 BuildRequires:	opus-devel >= 0.9.10
