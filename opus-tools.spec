@@ -1,12 +1,12 @@
 Summary:	Command-line utilities to encode, inspect, and decode .opus files
 Summary(pl.UTF-8):	Narzędzia linii poleceń do kodowania, badania i dekodowania plików .opus
 Name:		opus-tools
-Version:	0.1.9
+Version:	0.1.10
 Release:	1
 License:	BSD
 Group:		Applications/Sound
-Source0:	http://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
-# Source0-md5:	20682e4d8d1ae9ec5af3cf43e808b8cb
+Source0:	https://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
+# Source0-md5:	6b78535d58b94832710b14e219f65a91
 URL:		http://opus-codec.org/
 BuildRequires:	flac-devel >= 1.1.3
 BuildRequires:	libogg-devel >= 2:1.3
@@ -46,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog
+%doc AUTHORS COPYING
 %attr(755,root,root) %{_bindir}/opusdec
 %attr(755,root,root) %{_bindir}/opusenc
 %attr(755,root,root) %{_bindir}/opusinfo
