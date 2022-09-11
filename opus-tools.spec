@@ -2,7 +2,7 @@ Summary:	Command-line utilities to encode, inspect, and decode .opus files
 Summary(pl.UTF-8):	Narzędzia linii poleceń do kodowania, badania i dekodowania plików .opus
 Name:		opus-tools
 Version:	0.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/Sound
 Source0:	https://archive.mozilla.org/pub/opus/%{name}-%{version}.tar.gz
