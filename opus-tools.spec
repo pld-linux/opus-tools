@@ -5,9 +5,9 @@ Version:	0.2
 Release:	3
 License:	BSD
 Group:		Applications/Sound
-Source0:	https://archive.mozilla.org/pub/opus/%{name}-%{version}.tar.gz
+Source0:	https://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
 # Source0-md5:	ff2d0536e960cabbfb8ca7c8c1759b6c
-URL:		http://opus-codec.org/
+URL:		https://opus-codec.org/
 BuildRequires:	flac-devel >= 1.1.3
 BuildRequires:	libogg-devel >= 2:1.3
 BuildRequires:	libopusenc-devel >= 0.2
